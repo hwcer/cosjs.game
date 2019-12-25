@@ -1,0 +1,43 @@
+{
+  "name": "cosjs.game",
+  "description": "nodejs game server framework",
+  "version": "0.0.3",
+  "main": "./index.js",
+  "author": {
+    "name": "wanchao.huang",
+    "email": "hwclegend@163.com"
+  },
+  "keywords": [ "game",  "server"],
+  "licenses": [
+    {
+      "type": "Apache License, Version 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+    "cosjs": "^4.4.0",
+    "request": "*",
+    "cosjs.mvc": "*",
+    "cosjs.redis": "*",
+    "cosjs.mongo": "*",
+    "cosjs.loader": "*",
+    "cosjs.library": "*",
+    "cosjs.updater": "*",
+    "cosjs.session": "*",
+    "node-schedule" : "^1.3.0"
+  },
+  "engines": {
+    "node": "10.2+"
+  },
+  "directories": {
+    "lib": "./lib/"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/hwclegend/cosjs.game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hwclegend/cosjs.game/issues"
+  },
+  "homepage": "https://github.com/hwclegend/cosjs.game"
+}
